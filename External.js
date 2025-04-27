@@ -10,6 +10,8 @@ var fName = "Muhammad";
 var sName = 'Abdelwahhab';
 var lName = `Elzemety`;
 
+var fg = true;
+
 console.log("This is an External Javascript File");
 
 
