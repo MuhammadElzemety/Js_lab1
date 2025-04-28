@@ -1,0 +1,1 @@
+console.log(printVariables(100,150,300));
