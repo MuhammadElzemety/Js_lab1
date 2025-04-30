@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab4</title>
+    <style>
+      #slideshow {
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="slideshow">
+      <img id="slide" src="img1.jpg" alt="Slideshow Image" />
+      <br />
+      <button onclick="previousImage()">Previous</button>
+      <button onclick="nextImage()">Next</button>
+      <button onclick="startShow()">Start</button>
+      <button onclick="stopShow()">Stop</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
